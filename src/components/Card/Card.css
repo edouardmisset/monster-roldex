@@ -1,0 +1,22 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: hsla(180, 50%, 50%, 0.637);
+  border: 1px solid grey;
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  -moz-osx-font-smoothing: greyscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.1);
+}
+
+.card-container > p {
+  word-break: break-word;
+  hyphens: auto;
+}
