@@ -39,7 +39,7 @@ class App extends Component {
             )}
           />
         ) : (
-          <h1>Loading...</h1>
+          <h2 className="loading">Loading...</h2>
         )}
       </div>
     )

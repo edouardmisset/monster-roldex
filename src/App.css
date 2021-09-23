@@ -12,3 +12,7 @@ body {
   text-align: center;
   font-family: fantasy, cursive;
 }
+
+.loading {
+  text-align: center;
+}
