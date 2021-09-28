@@ -19,17 +19,17 @@ class App extends Component {
         this.setState({ monsters: users })
       })
   }
-
+  onSearchChange = event => {
+    this.setState({ searchField: event.target.value })
+  }
   render() {
     const { monsters, searchField } = this.state
-    const onSearchChange = event => {
-      this.setState({ searchField: event.target.value })
-    }
+
     return (
       <div className="App">
         <h1 className="title">Monsters Rolodex</h1>
         <SearchBox
-          onSearchChange={onSearchChange}
+          onSearchChange={this.onSearchChange}
           placeholder="Search monster"
         />
         {monsters.length > 0 ? (

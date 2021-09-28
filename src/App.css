@@ -8,9 +8,10 @@ body {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
-  font-family: fantasy, cursive;
+  font-family: 'Bigelow Rules', fantasy, cursive;
+  color: hsla(180, 100%, 50%, 0.9);
 }
 
 .loading {
